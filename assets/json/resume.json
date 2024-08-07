@@ -1,26 +1,35 @@
 {
-  "profile": {
+  "basics": {
     "name": "RAJ SURYA RAJENDRAN KATHIRVEL",
     "email": "rajsurya1012@gmail.com",
     "phone": "(763)306-9042",
-    "location": "Minneapolis, MN",
-    "url": "linkedin.com/in/rajsurya002",
-    "summary": "RAJ SURYA RAJENDRAN KATHIRVEL"
+    "location": {
+      "city": "Minneapolis",
+      "countryCode": "USA",
+      "region": "Minnesota"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rajsurya002",
+        "url": "https://linkedin.com/rajsurya002"
+      }
+    ]
   },
-  "educations": [
+  "education": [
     {
       "school": "University of Minnesota, Twin Cities",
       "degree": "Master of Science in Robotics",
-      "gpa": "",
+      "gpa": "4.0",
       "date": "Sep 2023-May2025",
-      "descriptions": []
+      "courses": " My courses"
     },
     {
       "school": "Indian Institute of Technology, Palakkad",
       "degree": "Bachelor of Technology in Mechanical Engineering",
-      "gpa": "",
+      "gpa": "8.67/10.0",
       "date": "Aug 2019–May 2023",
-      "descriptions": []
+      "courses": "My UG courses" 
     }
   ],
   "workExperiences": [
