@@ -3,14 +3,12 @@
   contents:
     - name: Full Name
       value: Raj Surya Rajendran Kathirvel
-    - name: Phone
-      value: +1(763)306-9042
     - name: Email
       value: rajsurya1012@gmail.com
-    - name: LinkedIn
-      value: http://www.linkedin.com/in/rajsurya002
     - name: Location
       value: Minneapolis, MN
+    - name: Require Sponsorship
+      value: Yes, H1B Visa
 
 - title: Education
   type: time_table
@@ -60,9 +58,9 @@
 - title: Projects
   type: time_table
   contents:
-    - title: Reimplementation of HRNet with preactivated residual units
+    - title: HRNet with preactivated residual units
       description:
-        - Reimplemented HRNet using PyTorch for classification and detection tasks that produced comparable results with actual model.
+        - Implemented HRNet using PyTorch for classification and detection tasks that produced comparable results with actual model.
         - Introduced preactivated residual units that reduced overall loss and led to faster convergence when the model was deeper.
         - Tested the model with different datasets with varied sizes to understand the effect of data size on the model.
     - title: Formation Control using Vision Tracking
