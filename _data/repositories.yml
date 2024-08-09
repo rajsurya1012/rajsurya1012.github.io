@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - rajsurya1012
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - rajsurya1012/Aadupuliyattam
+  - rajsurya1012/InterIIT2023Task1
+  - rajsurya1012/InterIIT2023Task2
+  - rajsurya1012/rs_go
+
+#  TODO: Add the following
+#  AI Agents
+# RRT Connect, with other path planning algorithms

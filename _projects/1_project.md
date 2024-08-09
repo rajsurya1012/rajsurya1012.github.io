@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: HRSNet
+description: A fusion model of HRNet and RESNet with pre-activated residual units.
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
