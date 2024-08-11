@@ -58,34 +58,38 @@
 - title: Projects
   type: time_table
   contents:
-    - title: HRNet with preactivated residual units
+    - title: HRSNet - A fusion model of HRNet with RESNet using preactivated residual units.
       description:
         - Implemented HRNet using PyTorch for classification and detection tasks that produced comparable results with actual model.
         - Introduced preactivated residual units that reduced overall loss and led to faster convergence when the model was deeper.
-        - Tested the model with different datasets with varied sizes to understand the effect of data size on the model.
+        - Integrated residual connections between different stages of HRNet to improve the performance of the model.
     - title: Formation Control using Vision Tracking
       description:
         - Developed a perception pipeline to segment different instances of robots using RGB image.
-        - Utilized camera intrinsics and projective geometry to accurately determine the 2D pose of the robot.
+        - Utilized projective geometry to accurately determine the 2D pose of the robot.
         - Developed a controller to move the set of robots while adhering to geometric constraints between them.
     - title: Pick and Place using RRT Connect
       description:
         - Implemented path planning for a mobile manipulator using RRT Connect to perform pick and place tasks.
         - Implemented inverse kinematics for the control of arm motion.
     - title: Vision-Based Multi Drone Control
-      award: Silver Medal at the InterIIT TechMeet 11.0 nationwide competition
       description:
+        - Silver Medal at the InterIIT TechMeet 11.0 nationwide competition
         - Developed teleoperation module to control the drones using MSP Communication protocol.
         - Implemented 6D pose estimation of multiple drones using ArUco marker and RGB Camera.
         - Implemented path planning to move the robot through given set points autonomously.
         - Developed follower drone’s algorithm to follow trajectory of the master drone.
 
 - title: Skills
-  type: list
+  type: time_table
   contents:
-    - Languages: Python, C++, MATLAB
-    - Libraries/Frameworks: ROS, PyTorch, Tensorflow, Pandas, NumPy, Gazebo
-    - Robots and Sensors: Spot, Nano drones, Turtlebot, xARM, outdoor AMR, LiDAR, RGBD Camera, IMU, GNSS
-    - Other: Linux, Git, Azure DevOps, Rapid prototyping, CAD
+    - title: Languages 
+      description: Python, C++, MATLAB
+    - title: Libraries/Frameworks 
+      description: ROS, PyTorch, Tensorflow, Pandas, NumPy, Gazebo
+    - title: Robots and Sensors
+      description: Spot, Nano drones, Turtlebot, xARM, outdoor AMR, LiDAR, RGBD Camera, IMU, GNSS
+    - title: Other
+      description: Linux, Git, Azure DevOps, Rapid prototyping, CAD
 
 # TODO: Add leadership experience

@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: false
 ---
-### Authors
+### Team
 Raj Surya, Akshara Madhu Suthanan, Mihir Momaya, Rahul Autade
 ### Introduction
 Deep convolutional neural networks have risen to prominence in numerous computer vision applications, including image classification, object detection, semantic segmentation, and human pose estimation, among others, by achieving state-of-the-art performance. However, some of the previously known algorithms have grappled with the vanishing gradient problem, which occurs when the value of the gradient becomes so small that it has an insignificant effect on the updation of parameters, hindering the ability to scale higher and implement larger layers.
