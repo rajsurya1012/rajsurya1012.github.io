@@ -92,4 +92,23 @@
     - title: Other
       description: Linux, Git, Azure DevOps, Rapid prototyping, CAD
 
-# TODO: Add leadership experience
+- title: Leadership
+  type: time_table
+  contents:
+    - title: Club head, The Robotics Club
+      institution: Indian Institute of Technology, Palakkad
+      year: May 2022 - may 2023
+      description:
+        - Undertook projects and conducted sessions to help other students.
+        - Conducted workshop on robotics at Petrichor, techno-cultural fest IIT Palakkad, and TKM College of Engineering.
+        - Represented the club in robotics competitions.
+    - title: Cultural head, Petrichor (Techno-Cultural Fest)
+      institution: Indian Institute of Technology, Palakkad
+      year: Jul 2021- Jan 2022
+      description:
+        -Lead a team of over 25 students in organising 20 events in the cultural domain, which attracted more than 4100 participants from roughly 520 colleges across 23+ states in India.
+    - title: Institute Music Screatary
+      institution: Indian Institute of Technology, Palakkad
+      year: Apr 2020 - Apr 2021
+      description:
+        -Conducted various music events and competitions for the student community, which helped in keeping the energy flowing during difficult covid situations.
