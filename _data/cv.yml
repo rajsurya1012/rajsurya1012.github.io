@@ -40,6 +40,13 @@
       description:
         - Developed an approach to represent objects' semantic information to improve robot scene understanding.
         - Utilized SOTA deep learning models for segmentation and detection using PyTorch to validate the approach by performing mobile manipulation tasks using SPOT robot.
+    - title: Summer Research Intern
+      institution: Indian Institute of Science
+      location: Bangalore, India
+      year: May 2022 – Jul 2022
+      description:
+        - Optimized the prototype of a two wheeled holonomic self-balancing robot to reduce energy loss and improve stability.
+        - Developed motion model and control system to operate the robot.
     - title: Undergraduate Research Assistant
       institution: Indian Institute of Technology, Palakkad
       location: Palakkad, India

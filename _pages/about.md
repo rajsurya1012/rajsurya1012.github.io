@@ -23,4 +23,4 @@ My experience with various autonomous robots, including SPOT, mini drones, manip
 
 Beyond robots, I enjoy competitive programming, playing different sports, watching documentaries, and listening to music.
 
-If you enjoy board games, I have created a simple AI agent that can challenge you in an ancient Indian game from my birthplace — <a href="https://github.com/rajsurya1012/aadupuliyattam">Aadupuliyattam (A game of goats and tigers)</a> .
+<!-- If you enjoy board games, I have created a simple AI agent that can challenge you in an ancient Indian game from my birthplace — <a href="https://github.com/rajsurya1012/aadupuliyattam">Aadupuliyattam (A game of goats and tigers)</a> . -->
