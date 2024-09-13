@@ -25,6 +25,13 @@
 - title: Experience
   type: time_table
   contents:
+   - title: Graduate Research Assistant
+      institution: Robotics Perception and Manipulation Lab, University of Minnesota
+      location: USA
+      year: Jan 2024 – Present
+      description:
+        - Developed an approach to represent objects' semantic information to improve robot scene understanding.
+        - Utilized SOTA deep learning models for segmentation and detection using PyTorch to validate the approach by performing mobile manipulation tasks using SPOT robot.
     - title: Robotics Engineering Intern
       institution: Milwaukee Tool
       location: Milwaukee, WI, USA
@@ -33,13 +40,6 @@
         - Developed perception system in C++ and Python to estimate 6DoF pose of target object within 1mm accuracy using 3D point cloud and RGB image, utilizing the ROS framework for integration.
         - Integrated RTK GNSS with dual antenna setup to accurately determine the position and heading of outdoor robot, enabling accurate mapping of obstacles and boundaries.
         - Collaborated with a cross-functional team to deploy the system onto real robots, ensuring seamless integration and functionality.
-    - title: Graduate Research Assistant
-      institution: Robotics Perception and Manipulation Lab, University of Minnesota
-      location: USA
-      year: Jan 2024 – May 2024
-      description:
-        - Developed an approach to represent objects' semantic information to improve robot scene understanding.
-        - Utilized SOTA deep learning models for segmentation and detection using PyTorch to validate the approach by performing mobile manipulation tasks using SPOT robot.
     - title: Summer Research Intern
       institution: Indian Institute of Science
       location: Bangalore, India

@@ -34,21 +34,22 @@ For the first task, a python wrapper is created which includes functions for arm
 ### Task 2 - Part 1
  To make the drone hover at a particular height using the position obtained using ArUco marker. In order to control the drone position, we need a feedback system that will tell its (atleast) current position with a good update rate. From the position data, velocity can be obtained by discrete differentiation. Update rate is important as the given system has low inertia, hence is very agile. Existing methods include GPS, laser based distance sensors, camera based pose estimation etc. Inertial systems are also used but have limited reliability because of the induced drift due to the integration involved. GPS cannot be used for indoor flights and has slow update rate. Light and sound based distance sensors are fast and can be used indoors, but are trickier to work with as the chance of false estimation due to moving objects or another interfering light/sound source can cause problems. Camera based pose estimation techniques also have certain pros and cons. They are more robust as the data under observation is comparatively much larger in size (image is a 2X2 matrix hence contain much larger information). However due to the large data size, data acquisition and processing takes more time and energy. Here we are going with camera based pose estimation with an external camera, i.e. camera is fixed outside the quadcopter. Also the data processing and control is done on an external PC and data sent via wireless communication using MSP packets as described in Task 1.
 
- #### Aruco Marker
+#### Aruco Marker
  Now to locate the drone in the image coming from camera feed, ArUco tag are used. These markers uses black and white square blocks of specific sizes to encode certain information given by the user (ID). The number of square blocks also vary according to the size of information to be encoded. We have used a 4X4 ArUco tag for the detection purpose. Basically the detection of ArUco markers depend upon corner detection algorithms, as the marker has very high contrast (assuming the print quality is good enough). But to extract the relative position from the detected marker, the camera needs to be calibrated.
 
- #### Camera calibration and Pose estimation
+#### Camera calibration and Pose estimation
  Camera calibration is the process of determining the intrinsic and extrinsic parameters of a camera. These parameters describe the camera’s internal characteristics, such as its focal length, and its position and orientation in the world. Intrinsic parameters describe the camera’s internal optical and mechanical characteristics and include the focal length, principal point, and radial distortion coefficients. These parameters affect the scale, aspect ratio, and radial distortion of the captured images. The camera lens creates image distortion. Extrinsic parameters describe the position and orientation of the camera in the world and include the rotation and translation vectors. These parameters are important for determining the position of objects in 3D space. After proper calibration, relative position can be obtained from the camera centered coordinate frame. In order to move from one position to the other, it is needed to first know the current position and the goal position relative to it. Then the drone can start moving towards the goal position until the relative distance (error) becomes zero. However if the world is ideal, the drone can start suddenly with a non zero velocity, travel with the same velocity and suddenly stop as soon as the goal is reached. But that means infinite acceleration at the starting and ending points, which is not possible in real world. Hence the actuation commands of the drone needs to be a function of the current error (between starting and ending points).
  <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/drone/camera_calib.png" title="head" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/drone/camera_calib.jpeg" title="head" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Camera Calibration.
-</div>
+ </div>
+    <div class="caption">
+        Camera Calibration.
+    </div>
+ 
 
- #### Challenges Faced
+#### Challenges Faced
  - Pure translation along z-axis with respect to the camera frame results in slight change in the x,y coordinates as well due to the pin hole model of camera (expanding Field Of View (FOV)).
  - Low resolution form the camera gave a good update rate (for the complete algorithm), but could not detect the markers robustly whereas high resolution detected better but made the update rate slower.
  - The black ink (with which marker was printed) is pretty shiny and causes hindrance in detection.
