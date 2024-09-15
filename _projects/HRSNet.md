@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HRSNet
-description: A fusion model of HRNet and RESNet with pre-activated residual units.
+description: A fusion model of HRNet and RESNet with pre-activated residual units. Optimization of HRNet for deep models 
 img: assets/hrsnet/modularized_block.png
 importance: 1
 category: work

@@ -44,9 +44,9 @@ For the first task, a python wrapper is created which includes functions for arm
         {% include figure.liquid loading="eager" path="assets/drone/camera_calib.jpeg" title="head" class="img-fluid rounded z-depth-1" %}
     </div>
  </div>
-    <div class="caption">
-        Camera Calibration.
-    </div>
+<div class="caption">
+    Camera Calibration
+</div>
  
 
 #### Challenges Faced
